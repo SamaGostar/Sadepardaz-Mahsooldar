@@ -38,7 +38,7 @@ class ZarinpalComponent extends Object
 						array(
 								'MerchantID' 	=> $this->pin,
 								'Amount' 	=> $amount,
-								'Description' 	=> 'Ø§ÙØ²Ø§ÙŠØ´ Ø§Ø¹ØªØ¨Ø§Ø±: '.$data['name'].' ØªØ±Ø§Ú©Ù†Ø´ Ø´Ù…Ø§Ø±Ù‡: '.$this->Onlinetransaction->id.' ØªÙˆØ¶ÙŠØ­Ø§Øª: '.$data['desc'],
+								'Description' 	=> 'خریدار: '.$data['name'].' شماره فاکتور: '.$this->Onlinetransaction->id.' توضیحات: '.$data['desc'],
 								'Email' 	=> $Email,
 								'Mobile' 	=> $Mobile,
 								'CallbackURL' 	=> $this->callBackUrl
